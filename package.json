@@ -16,8 +16,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "electron-start": "electron .",
-    "package": "electron-packager ./build knownsec-fed --overwrite --all --out ./ --version 1.0.0",    
-    "package-mac": "electron-packager ./build knownsec-fed --overwrite --platform=darwin --arch=x64 --out ./ --version 1.0.0"
+    "package": "electron-packager ./build knownsec-fed --overwrite --all --out ../ --version 1.0.0",    
+    "package-mac": "electron-packager ./build knownsec-fed --overwrite --platform=darwin --arch=x64 --out ../ --version 1.0.0",
+    "package-win": "electron-packager ./build knownsec-fed --overwrite --platform=win32 --arch=ia32 --prune=true --out ../ --version 1.0.0" 
   },
   "devDependencies": {
     "electron-packager": "^11.1.0"
