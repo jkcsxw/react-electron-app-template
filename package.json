@@ -1,5 +1,5 @@
 {
-  "name": "knownsec-fed",
+  "name": "react-desktop-app-template",
   "version": "0.1.0",
   "private": true,
   "main": "main.js",
@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "package": "electron-packager . knownsec-fed --overwrite --all --out ./ --version 1.0.0",
-    "package-win32-x64": "electron-packager . knownsec-fed --overwrite --win32 --x64 ./ --version 1.0.0"
+    "package": "electron-packager . react-desktop-app-template --overwrite --all --out ./ --version 1.0.0",
+    "package-win32-x64": "electron-packager . react-desktop-app-template --overwrite --win32 --x64 ./ --version 1.0.0"
   },
   "devDependencies": {
     "asar": "^0.14.3",
