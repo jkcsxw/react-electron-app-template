@@ -8,7 +8,8 @@
 
 # production
 /build
-/knownsec-fed-win32-x64
+/react-desktop-app-template-win32-x64
+/react-desktop-app-template-darwin-x64
 
 # misc
 .DS_Store
