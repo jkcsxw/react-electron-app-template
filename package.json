@@ -3,24 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "main": "main.js",
-  "homepage": ".",
+  "homepage": "./",
   "dependencies": {
+    "builder": "^4.0.0",
     "electron": "^1.8.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "electron .",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "electron-start": "electron .",
-    "package": "electron-packager ./build knownsec-fed --overwrite --all --out ../ --version 1.0.0",    
-    "package-mac": "electron-packager ./build knownsec-fed --overwrite --platform=darwin --arch=x64 --out ../ --version 1.0.0",
-    "package-win": "electron-packager ./build knownsec-fed --overwrite --platform=win32 --arch=ia32 --prune=true --out ../ --version 1.0.0" 
+    "package": "electron-packager . knownsec-fed --overwrite --all --out ./ --version 1.0.0",
+    "package-win32-x64": "electron-packager . knownsec-fed --overwrite --win32 --x64 ./ --version 1.0.0"
   },
   "devDependencies": {
+    "asar": "^0.14.3",
     "electron-packager": "^11.1.0"
   }
 }
