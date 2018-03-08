@@ -21,12 +21,18 @@ npm run pack-asar
 ```
 It may take several minutes to pack up your application.
 
+## To generate installer
+install grunt-cli first using npm 
+run npm run package-win32-x64 first  
+then grunt   
+This may take longer than your thought.
+
 ## To have a look at your app
 ```
 npm start
 ```
-## To generate installer file  
-use asar or other tools
+## Notice
+notive there may need to rewrite some files of grunt or asar or packager on non-windows machine
 
 ## Preview
 ![Preview](./preview.png) 

@@ -10,6 +10,7 @@
 /build
 /react-desktop-app-template-win32-x64
 /react-desktop-app-template-darwin-x64
+/installer
 
 # misc
 .DS_Store
