@@ -16,9 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "package": "electron-packager . react-desktop-app-template --overwrite --all --out ./ --version 1.0.0",
-    "package-win32-x64": "electron-packager . react-desktop-app-template --overwrite --win32 --x64 ./ --version 1.0.0",
-    "package-mac": "electron-packager . react-desktop-app-template --overwrite --darwin --x64 ./ --version 1.0.0",
+    "package": "electron-packager . react-desktop-app-template --overwrite --all --out ./ --version 1.8.3",
+    "package-win32-x64": "electron-packager . react-desktop-app-template --overwrite --win32 --x64 ./ --version 1.8.3",
+    "package-mac": "electron-packager . react-desktop-app-template --overwrite --darwin --x64 ./ --version 1.8.3",
     "pack-asar": "asar pack ./react-desktop-app-template-win32-x64/resources/app ./react-desktop-app-template-win32-x64/resources/app.asar && rm -rf ./react-desktop-app-template-win32-x64/resources/app"
   },
   "devDependencies": {
