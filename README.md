@@ -37,4 +37,4 @@ notive there may need to rewrite some files of grunt or asar or packager on non-
 Notive when you run npm run pack-asar, there may be some problems using rm under windows. I used wsl to run this script.
 
 ## Preview
-![Preview](./preview.png) 
+![Preview](./preview.PNG) 
